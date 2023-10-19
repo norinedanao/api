@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <form id="address-form">
+            <label for="region">Region:</label>
+            <select id="region" name="region">
+                <option>SELECT REGION</option>
+            </select>
+
+            <label for="province">Province:</label>
+            <select id="province" name="province">
+                <option>SELECT PROVINCE</option>
+            </select>
+
+            <label for="municipality">Municipality:</label>
+            <select id="municipality" name="municipality">
+                <option>SELECT MUNICIPALITY</option>
+            </select>
+
+            <label for="barangay">Barangay:</label>
+            <select id="barangay" name="barangay">
+                <option>SELECT BARANGAY</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="result">
+            <h2>Selected Address:</h2>
+            <p>Religion: <span id="selected-region"></span></p>
+            <p>Province: <span id="selected-province"></span></p>
+            <p>Municipality: <span id="selected-municipality"></span></p>
+            <p>Barangay: <span id="selected-barangay"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</body>
+</html>
